@@ -6,7 +6,7 @@ public class UserInputService {
     
     private Scanner scanner = new Scanner(System.in);
     
-    public Integer getUserInput(){
+    public String getUserInput(){
         return Integer.valueOf(scanner.nextLine());
     }
     
